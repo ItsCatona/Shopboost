@@ -1,0 +1,53 @@
+#heading1{
+    text-align: center;
+    color: darkblue;
+}
+.paragraph{
+    font-family: Bahnschrift, ui-sans-serif;
+    font-size: 18px;
+}
+#mydivision{
+    background-color: plum;
+    margin: 40px;
+    padding: 30px;
+    color: #ffffff;
+}
+#test{
+    background-color: #d58e6f;
+    margin: 40px;
+    padding: 40px;
+    display: flex;
+}
+#test img{
+    margin-right: 40px;
+    width: 300px;
+    height: 200px;
+}
+#main{
+    display: flex;
+}
+#advertisement{
+    background-color: #a69882;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px lightcyan;
+}
+#accounting{
+     background-color: #9f7c47;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px lightpink;
+}
+#payment{
+     background-color: #432c09;
+    color: white;
+    margin-left: 20px;
+    padding: 30px;
+    box-shadow: 8px 6px 12px 4px lemonchiffon;
+}
+
+#advertisement:hover,#accounting:hover,#payment:hover{
+    background-color: #9fcaf3;
+}
